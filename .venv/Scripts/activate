@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "C:\Users\bruna\Documents\_ARQUIVOS PESSOAIS\P&D (google.dev)\PROJETOS PYTHON\FLET\PROJECTS\08_clash_of_clans\.venv")
+    export VIRTUAL_ENV=$(cygpath "C:\Users\bruna\Documents\P&D (google.dev)\PROJETOS PYTHON\FLET\PROJECTS\08_clash_of_clans\.venv")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\bruna\Documents\_ARQUIVOS PESSOAIS\P&D (google.dev)\PROJETOS PYTHON\FLET\PROJECTS\08_clash_of_clans\.venv"
+    export VIRTUAL_ENV="C:\Users\bruna\Documents\P&D (google.dev)\PROJETOS PYTHON\FLET\PROJECTS\08_clash_of_clans\.venv"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
