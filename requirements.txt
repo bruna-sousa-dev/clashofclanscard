@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 flet
-=======
-flet
->>>>>>> f87bf0b0487df0ba420d708ec0aea73906312de3
